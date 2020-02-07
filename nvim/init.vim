@@ -30,7 +30,6 @@ if dein#load_state(s:dein_cache_dir)
 endif
 
 filetype plugin indent on
-syntax on
 
 if dein#check_install()
   call dein#install()
@@ -38,10 +37,13 @@ endif
 
 "End dein Scripts-------------------------
 
+"colorscheme
+set t_Co=256
+colorscheme hybrid
+
 set number
 set autoindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
-set clipboard=unnamed
 set hls
