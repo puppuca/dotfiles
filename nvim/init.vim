@@ -44,6 +44,9 @@ colorscheme hybrid
 set number
 set autoindent
 set tabstop=2
-set shiftwidth=2
-set expandtab
+set shiftwidth=2 " タブの幅
+set expandtab    " タブをスペースに
 set hls
+set noswapfile   " スワップファイルの作成しない
+
+inoremap <silent> jj <ESC>
