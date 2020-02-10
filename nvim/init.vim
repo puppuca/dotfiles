@@ -37,16 +37,23 @@ endif
 
 "End dein Scripts-------------------------
 
-"colorscheme
+" colorscheme
 set t_Co=256
 colorscheme hybrid
 
 set number
 set autoindent
+set noswapfile   " スワップファイルの作成しない
+set showcmd
+
+" 検索
+set hls
+set ignorecase
+set incsearch
+
+" タブ関連
 set tabstop=2
 set shiftwidth=2 " タブの幅
 set expandtab    " タブをスペースに
-set hls
-set noswapfile   " スワップファイルの作成しない
 
 inoremap <silent> jj <ESC>

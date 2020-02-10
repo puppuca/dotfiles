@@ -1,38 +1,28 @@
 [[plugins]]
-repo = "Shougo/dein.vim"
+repo = 'Shougo/dein.vim'
 
 [[plugins]]
-repo = "Shougo/deoplete.nvim"
-hook_add = 'let g:deoplete#enable_at_startup=1'
-
-[[plugins]]
-repo = "tpope/vim-surround"
-
-[[plugins]]
-repo = "w0rp/ale"
-
-[[plugins]]
-repo = "tpope/vim-commentary"
-
-[[plugins]]
-repo = "vim-airline/vim-airline"
-
-[[plugins]]
-repo = "preservim/nerdtree"
-hook_add = '''
-  autocmd VimEnter * execute 'NERDTree'
-'''
-
-# language
-[[plugins]]
-repo = "pangloss/vim-javascript"
-
-[[plugins]]
-repo = "cespare/vim-toml"
-
-[[plugins]] # color
-repo = "w0ng/vim-hybrid"
+repo = 'w0ng/vim-hybrid'
 hook_add = '''
   set background=dark
   syntax on
 '''
+
+[[plugins]]
+repo = 'Shougo/deoplete.nvim'
+hook_add = 'let g:deoplete#enable_at_startup=1'
+
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+
+[[plugins]]
+repo = 'tpope/vim-surround'
+
+[[plugins]]
+repo = 'preservim/nerdtree'
+
+[[plugins]]
+repo = 'cespare/vim-toml'
+
+[[plugins]]
+repo = 'mattn/emmet-vim'
